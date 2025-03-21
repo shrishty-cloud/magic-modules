@@ -68,6 +68,9 @@ Whether subnet routes with public IP range are imported. The default value is fa
 * `stack_type` - (Optional)
 Which IP version(s) of traffic and routes are allowed to be imported or exported between peer networks. The default value is IPV4_ONLY. Possible values: ["IPV4_ONLY", "IPV4_IPV6"].
 
+* update_strategy - (Optional)
+  Update and delete semantics of peering connection. The default value is INDEPENDENT. Possible values:  ["IPV4_ONLY", "IPV4_IPV6"].
+
 ## Attributes Reference
 
 In addition to the arguments listed above, the following computed attributes are
